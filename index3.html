@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    center {
+        margin-top: 7%;
+    }
+    img{
+        width: 170px;
+        height:150px;
+    }
+    body{
+        background: url("https://static.vecteezy.com/system/resources/previews/005/204/025/non_2x/mobile-phone-represent-of-front-of-shop-store-shopping-online-on-website-or-mobile-application-concept-marketing-and-digital-marketing-free-vector.jpg");
+    }
+</style>
+<body>
+<center>
+    <h1>Shop Cua Ong Gia Tao</h1>
+    <button onclick="addProduct()">Add-Product</button>
+    <div id="addProduct">
+    </div>
+    <br>
+    <div id="EditProduct">
+    </div>
+    <br>
+    <br>
+    <table border="1">
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Image</th>
+            <th>Color</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th colspan="2">Action</th>
+        </tr>
+        <tbody id="showAll">
+
+        </tbody>
+    </table>
+</center>
+<script src="Entity3/Product3.js"></script>
+<script src="Managerment3/Store 3.js"></script>
+<script src="View3/View3.js"></script>
+
+</body>
+</html>
