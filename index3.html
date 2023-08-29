@@ -2,45 +2,62 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Bug Như Con Vịt cac cac</title>
 </head>
 <style>
     center {
         margin-top: 7%;
     }
     img{
-        width: 170px;
-        height:150px;
+        width: 200px;
+        height:220px;
     }
     body{
-        background: url("https://static.vecteezy.com/system/resources/previews/005/204/025/non_2x/mobile-phone-represent-of-front-of-shop-store-shopping-online-on-website-or-mobile-application-concept-marketing-and-digital-marketing-free-vector.jpg");
+        color: black;
+   }
+    button{
+        background-color: chartreuse;
     }
 </style>
 <body>
 <center>
-    <h1>Shop Cua Ong Gia Tao</h1>
-    <button onclick="addProduct()">Add-Product</button>
-    <div id="addProduct">
+    <h1 >Shop Cua Ong Gia Tao</h1>
+    <input type="search" name="" id="menu-search" placeholder="Search" style="margin-left: 89px">
+    <button onclick="Search()" style="background-color: aqua;border-radius: 70%" >Search</button>
+
+    <button onclick="addProduct()" style=  "margin-left: 75%" >Add-Product</button>
+    <div id="addProduct" style="margin-left: 75%">
     </div>
     <br>
-    <div id="EditProduct">
+    <div id="EditProduct" style="margin-left:55% ">
     </div>
     <br>
     <br>
-    <table border="1">
+    <table border="1" style="width: 80%">
         <tr>
-            <th>Id</th>
+            <th style="width: 10%">Id</th>
             <th>Name</th>
             <th>Image</th>
-            <th>Color</th>
-            <th>Price</th>
-            <th>Quantity</th>
+            <th style="width: 10%">Color</th>
+            <th style="width: 10%">Price</th>
+            <th style="width: 10%">Quantity</th>
             <th colspan="2">Action</th>
         </tr>
         <tbody id="showAll">
 
         </tbody>
     </table>
+    <div>
+        <div>
+            Nếu bạn muốn mua thì ra PT mark mà mua chứ ở đây chỉ quảng cáo thôi nhé
+        </div>
+        <div>
+            Có gì Liên hệ cho mình nhé <a style="color: #f3efef" href="https://www.facebook.com/vulinh1234567">
+            <button onclick="Thongbao()">FaceBook</button>
+        </a>
+        </div>
+    </div>
+
 </center>
 <script src="Entity3/Product3.js"></script>
 <script src="Managerment3/Store 3.js"></script>
